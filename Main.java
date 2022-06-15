@@ -3,5 +3,8 @@ class Main {
 		System.out.println("How are you doing?");
 		Flute p1 = new Flute("Let's sing together");
 		System.out.println(p1);
+		Piano f1 = new Piano("Let's vibe together");
+		System.out.println(f1);
+		f1.singer("Bella");
 	}
 }
