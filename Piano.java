@@ -3,4 +3,8 @@ class Piano {
 	public Piano(String sing) {
 		this.sing = sing;
 	}
+	
+	public void String singer(String name) {
+		System.out.println(name + " sing " + sing);
+	}
 }
